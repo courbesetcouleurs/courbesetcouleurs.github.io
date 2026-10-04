@@ -178,8 +178,9 @@ export default function Home() {
             <a href="#portfolio">Portfolio</a>
             <a href="#offres">Offres</a>
             <a href="#faq">FAQ</a>
+            <a href="https://devis-courbesetcouleurs.netlify.app/?utm_source=site&utm_medium=referral&utm_content=nav_contact">Contact</a>
           </nav>
-          <a className="btn small" href="/devis">
+          <a className="btn small" href="https://devis-courbesetcouleurs.netlify.app/?utm_source=site&utm_medium=referral&utm_content=header_cta">
             Parler de mon projet
           </a>
           <MobileMenu />
@@ -199,7 +200,7 @@ export default function Home() {
               et choisie.
             </p>
             <div className="actions">
-              <a className="btn" href="/devis">
+              <a className="btn" href="https://devis-courbesetcouleurs.netlify.app/?utm_source=site&utm_medium=referral&utm_content=hero_cta">
                 Construire ma marque
               </a>
               <a className="textLink" href="#portfolio">
@@ -268,19 +269,19 @@ export default function Home() {
           </p>
         </div>
         <div className="audienceGrid">
-          <a href="/devis?besoin=lancement">
+          <a href="https://devis-courbesetcouleurs.netlify.app/?utm_source=site&utm_medium=referral&utm_content=besoin_lancement">
             <span>01</span>
             <p>Vous lancez votre activité</p>
             <h3>Partir sur des bases crédibles dès le début.</h3>
             <small>Identité essentielle · Cohérence · Confiance</small>
           </a>
-          <a href="/devis?besoin=refonte">
+          <a href="https://devis-courbesetcouleurs.netlify.app/?utm_source=site&utm_medium=referral&utm_content=besoin_refonte">
             <span>02</span>
             <p>Votre image ne vous ressemble plus</p>
             <h3>Faire évoluer votre identité sans perdre votre histoire.</h3>
             <small>Diagnostic · Repositionnement · Refonte</small>
           </a>
-          <a href="/devis?besoin=developpement">
+          <a href="https://devis-courbesetcouleurs.netlify.app/?utm_source=site&utm_medium=referral&utm_content=besoin_developpement">
             <span>03</span>
             <p>Votre marque passe un cap</p>
             <h3>Structurer un univers capable de grandir avec vous.</h3>
@@ -765,7 +766,7 @@ export default function Home() {
             </p>
           </div>
           <div className="contactAction">
-            <a className="btn" href="/devis">
+            <a className="btn" href="https://devis-courbesetcouleurs.netlify.app/?utm_source=site&utm_medium=referral&utm_content=contact_section">
               Raconter mon projet
             </a>
             <a className="textLink" href="mailto:Courbesetcouleurs@proton.me">
@@ -807,7 +808,7 @@ export default function Home() {
           <div>
             <b>Me retrouver</b>
             <a href="mailto:Courbesetcouleurs@proton.me">Email</a>
-            <a href="/devis">Demander un devis</a>
+            <a href="https://devis-courbesetcouleurs.netlify.app/?utm_source=site&utm_medium=referral&utm_content=footer_devis">Demander un devis</a>
           </div>
           <div>
             <b>Informations</b>

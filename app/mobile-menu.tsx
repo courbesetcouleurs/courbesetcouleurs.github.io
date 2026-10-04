@@ -11,7 +11,8 @@ export function MobileMenu() {
         <a href="/#portfolio">Portfolio</a>
         <a href="/#offres">Offres</a>
         <a href="/#faq">FAQ</a>
-        <a className="mobileMenuCta" href="/devis">Parler de mon projet</a>
+        <a href="https://devis-courbesetcouleurs.netlify.app/?utm_source=site&utm_medium=referral&utm_content=mobile_contact">Contact</a>
+        <a className="mobileMenuCta" href="https://devis-courbesetcouleurs.netlify.app/?utm_source=site&utm_medium=referral&utm_content=mobile_cta">Parler de mon projet</a>
       </nav>
     </details>
   );

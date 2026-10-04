@@ -179,7 +179,7 @@ export default async function ProjectPage({
           <a href="/identite-visuelle">Identité visuelle</a>
           <a href="/creation-logo">Création de logo</a>
         </div>
-        <a className="caseCta" href="/devis">
+        <a className="caseCta" href="https://devis-courbesetcouleurs.netlify.app/?utm_source=site&utm_medium=referral&utm_content=project_cta">
           Vous avez un projet similaire ? Parlons-en
         </a>
       </section>

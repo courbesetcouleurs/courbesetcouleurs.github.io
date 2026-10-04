@@ -53,7 +53,7 @@ export default function PricingCards({ offers }: { offers: Offer[] }) {
             </ul>
             <a
               className={isSelected || offer.badge ? "btn" : "outlineBtn"}
-              href={`/devis?offre=${encodeURIComponent(offer.name)}`}
+              href={`https://devis-courbesetcouleurs.netlify.app/?utm_source=site&utm_medium=referral&utm_content=${encodeURIComponent(`offre_${offer.name}`)}`}
               onClick={(event) => event.stopPropagation()}
             >
               Parler de cette formule

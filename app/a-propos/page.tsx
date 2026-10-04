@@ -41,8 +41,9 @@ export default function AboutPage() {
             <a href="/#portfolio">Portfolio</a>
             <a href="/#offres">Offres</a>
             <a href="/#faq">FAQ</a>
+            <a href="https://devis-courbesetcouleurs.netlify.app/?utm_source=site&utm_medium=referral&utm_content=nav_contact">Contact</a>
           </nav>
-          <a className="btn small" href="/devis">Parler de mon projet</a>
+          <a className="btn small" href="https://devis-courbesetcouleurs.netlify.app/?utm_source=site&utm_medium=referral&utm_content=about_header">Parler de mon projet</a>
           <MobileMenu />
         </div>
       </header>
@@ -108,7 +109,7 @@ export default function AboutPage() {
 
       <section className="aboutCta section shell">
         <p className="eyebrow">Et votre marque ?</p><h2>Si vous cherchez une identité qui ait du sens autant que du caractère, parlons-en.</h2>
-        <div className="actions"><a className="btn" href="/devis">Raconter mon projet</a><a className="textLink" href="/#portfolio">Voir les projets</a></div>
+        <div className="actions"><a className="btn" href="https://devis-courbesetcouleurs.netlify.app/?utm_source=site&utm_medium=referral&utm_content=about_cta">Raconter mon projet</a><a className="textLink" href="/#portfolio">Voir les projets</a></div>
       </section>
       <SiteFooter />
     </main>
