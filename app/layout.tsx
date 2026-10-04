@@ -67,6 +67,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr-FR">
+      <head>
+        <meta name="color-scheme" content="only light" />
+        <meta name="supported-color-schemes" content="light" />
+      </head>
       <body className="antialiased">{children}<ContactModal /></body>
     </html>
   );
