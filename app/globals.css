@@ -525,7 +525,7 @@ textarea:focus-visible {
     transition-duration: 0.01ms !important;
   }
 }
-@media (max-width: 1020px) {
+@media (max-width: 1100px) {
   .positioningGrid {
     grid-template-columns: 1fr 1.4fr;
   }
@@ -1767,8 +1767,10 @@ footer {
   border-top: 1px solid #ffffff28;
   padding-top: 22px;
   margin-top: 35px;
-  font-size: 9px;
+  font-size: 12px;
   color: #ffffff80;
+  text-align: center;
+  width: 100%;
 }
 footer:after {
   content: "";
@@ -1781,7 +1783,7 @@ footer:after {
   bottom: -80px;
   opacity: 0.22;
 }
-@media (max-width: 1020px) {
+@media (max-width: 1100px) {
   .nav nav {
     display: none;
   }
@@ -3001,7 +3003,7 @@ footer .footerGrid > div {
 .choiceGrid label {
   font-size: 15px;
 }
-@media (max-width: 1020px) {
+@media (max-width: 1100px) {
   .positioningGrid {
     grid-template-columns: 1fr 1.4fr;
   }

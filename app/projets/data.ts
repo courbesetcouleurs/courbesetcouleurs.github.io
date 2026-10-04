@@ -109,7 +109,7 @@ export const projects: Project[] = [
     category: "Mode enfant · Identité globale",
     year: "2026",
     services: ["Positionnement", "Identité visuelle", "Direction artistique", "Patterns & personnages", "Déploiement retail & produits"],
-    hero: "/projets/pepite/pepite-01-hero.webp",
+    hero: "/projets/pepite/pepite-10-vitrine-boutique.webp",
     accent: "#3155FF",
     intro: "Une marque enfant expressive, graphique et contemporaine, pensée pour célébrer les petites personnalités sans reprendre les codes attendus du secteur.",
     context: "PÉPITE est une marque de vêtements et accessoires pour les 2–8 ans, imaginée autour de petites séries confortables et durables. Le territoire devait séduire les enfants autant que leurs parents, tout en évitant les univers pastel, les animaux mignons et les codes trop bébé.",

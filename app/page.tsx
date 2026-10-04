@@ -136,7 +136,7 @@ const jsonLd = {
   url: "https://courbesetcouleurs.github.io",
   email: "Courbesetcouleurs@proton.me",
   image:
-    "https://courbesetcouleurs.github.io/portfolio/maison-venus-hero.webp",
+    "https://courbesetcouleurs.github.io/projets/pepite/pepite-04-boutique.webp",
   founder: { "@type": "Person", name: "Cristina" },
   areaServed: ["Ariège", "Occitanie", "France"],
   serviceType: [
@@ -215,8 +215,8 @@ export default function Home() {
           <div className="heroVisual">
             <div className="imageFrame">
               <img
-                src="/portfolio/maison-venus-hero.webp"
-                alt="Identité visuelle du projet Maison Vénus conçue par Courbes & Couleurs"
+                src="/projets/pepite/pepite-04-boutique.webp"
+                alt="Boutique PÉPITE et déploiement de son identité visuelle conçus par Courbes & Couleurs"
                 fetchPriority="high"
                 decoding="async"
               />

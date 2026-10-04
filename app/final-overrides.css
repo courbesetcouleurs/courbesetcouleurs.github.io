@@ -82,7 +82,7 @@ html, body {
 }
 .mobileMenu summary::-webkit-details-marker { display: none; }
 
-@media (max-width: 1020px) {
+@media (max-width: 1100px) {
   .mobileMenu {
     display: block;
   }
