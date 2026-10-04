@@ -1,0 +1,67 @@
+.section { padding: 78px 0; }
+.sectionHead.split { margin-bottom: 36px; }
+.audience { padding-top: 72px; padding-bottom: 54px; }
+.positioning { padding: 64px 0; }
+.priceGrid article { border-width: 2px; }
+.priceGrid article:nth-child(1) { --offer-color: var(--coral); border-color: var(--coral); }
+.priceGrid article:nth-child(2) { --offer-color: var(--aqua); border-color: var(--aqua); }
+.priceGrid article:nth-child(3) { --offer-color: var(--yellow); border-color: var(--yellow); }
+.priceGrid article:nth-child(4) { --offer-color: var(--purple); border-color: var(--purple); }
+.priceGrid article.selected,
+.priceGrid article.popular.selected {
+  border-color: var(--offer-color);
+  box-shadow: 0 20px 48px color-mix(in srgb, var(--offer-color) 30%, transparent);
+}
+.priceGrid article .outlineBtn { border-color: var(--offer-color); }
+.priceGrid article:nth-child(3) .popularBadge { background: var(--yellow); color: var(--indigo); }
+.deliverablesGrid article:last-child {
+  grid-column: 1 / -1;
+  min-height: 0;
+  display: grid;
+  grid-template-columns: auto .8fr 1.5fr;
+  gap: 20px;
+  align-items: center;
+  border-color: var(--purple);
+}
+.deliverablesGrid article:last-child h3 { margin: 0; }
+.badge { flex-direction: column; gap: 0; text-align: center; }
+.badge .badgeYears { display: flex; align-items: baseline; gap: 5px; line-height: 1; }
+.badge .badgeYears b { font-size: 58px; line-height: .85; }
+.badge .badgeYears strong { font: 900 16px/1 Lato, sans-serif; text-transform: uppercase; }
+.badge .badgeLabel { margin-top: 8px; font-size: 10px; letter-spacing: .08em; }
+
+/* Hero plus immersif, avec une silhouette organique calme */
+.hero { grid-template-columns: .9fr 1.1fr; gap: 48px; }
+.heroVisual { height: 625px; }
+.imageFrame {
+  inset: 4px -18px 4px 50px;
+  border-radius: 34% 18% 30% 12% / 16% 14% 28% 10%;
+}
+.badge { left: -2px; bottom: 54px; width: 132px; height: 132px; }
+.creatorChip { left: 28px; top: 6px; }
+
+/* Liens sociaux placés sous la signature du studio */
+.socialLinks { display: flex; align-items: center; gap: 9px; margin-top: 20px; }
+.socialLinks a { width: 40px; height: 40px; border: 1px solid #ffffff38; border-radius: 50%; display: grid; place-items: center; transition: .2s; }
+.socialLinks a:hover { background: var(--coral); border-color: var(--coral); transform: translateY(-2px); }
+.socialLinks svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.8; }
+.socialLinks .socialDot { fill: currentColor; stroke: none; }
+.socialLinks > span { margin-left: 4px; color: #ffffff9e; font-size: 11px; text-transform: uppercase; letter-spacing: .12em; font-weight: 900; }
+
+@media (max-width: 700px) {
+  .section { padding: 56px 0; }
+  .sectionHead.split { margin-bottom: 28px; }
+  .audience { padding-top: 56px; padding-bottom: 44px; }
+  .badge .badgeYears b { font-size: 46px; }
+  .badge .badgeYears strong { font-size: 13px; }
+  .badge .badgeLabel { margin-top: 6px; font-size: 8px; }
+  .hero { grid-template-columns: 1fr; gap: 30px; }
+  .heroVisual { height: 500px; }
+  .imageFrame { inset: 12px 0 8px 24px; border-radius: 30% 16% 27% 10% / 13% 12% 25% 9%; }
+  .badge { left: 0; bottom: 35px; width: 118px; height: 118px; }
+  .creatorChip { left: 10px; top: 0; bottom: auto; }
+  .deliverablesGrid article:last-child {
+    grid-template-columns: auto 1fr;
+  }
+  .deliverablesGrid article:last-child p { grid-column: 1 / -1; }
+}
