@@ -1767,8 +1767,10 @@ footer {
   border-top: 1px solid #ffffff28;
   padding-top: 22px;
   margin-top: 35px;
-  font-size: 9px;
+  font-size: 12px;
   color: #ffffff80;
+  text-align: center;
+  width: 100%;
 }
 footer:after {
   content: "";
