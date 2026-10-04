@@ -850,7 +850,7 @@ textarea:focus-visible {
   margin-top: auto;
 }
 .portfolio .projectGrid {
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 22px;
 }
 .portfolio .projectImage {
