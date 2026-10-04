@@ -1,5 +1,6 @@
 import PricingCards from "./pricing-cards";
 import SocialLinks from "./social-links";
+import { MobileMenu } from "./mobile-menu";
 
 const projects = [
   {
@@ -29,6 +30,13 @@ const projects = [
     image: "/portfolio/tomme-sommets-hero.webp",
     color: "purple",
     slug: "tomme-et-sommets",
+  },
+  {
+    name: "PÉPITE",
+    type: "Mode enfant · Identité & univers de marque",
+    image: "/projets/pepite/pepite-01-hero.webp",
+    color: "yellow",
+    slug: "pepite",
   },
 ];
 
@@ -174,6 +182,7 @@ export default function Home() {
           <a className="btn small" href="/devis">
             Parler de mon projet
           </a>
+          <MobileMenu />
         </div>
       </header>
 

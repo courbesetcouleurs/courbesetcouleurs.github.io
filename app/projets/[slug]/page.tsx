@@ -66,7 +66,7 @@ export default async function ProjectPage({
 
   return (
     <main
-      className="casePage"
+      className={`casePage casePage-${project.slug}`}
       style={{ "--case-accent": project.accent } as React.CSSProperties}
     >
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />

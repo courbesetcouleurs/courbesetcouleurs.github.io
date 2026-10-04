@@ -1,5 +1,6 @@
 import type { CSSProperties } from "react";
 import SocialLinks from "./social-links";
+import { MobileMenu } from "./mobile-menu";
 
 export type ServiceContent = {
   slug: string;
@@ -107,7 +108,7 @@ export const serviceContents: Record<string, ServiceContent> = {
 };
 
 function Header() {
-  return <header className="nav"><div className="shell navInner"><a className="brand" href="/" aria-label="Courbes & Couleurs, accueil"><img src="/monogramme.png" alt=""/><span>Courbes <i>&</i> Couleurs<small>Design de marque</small></span></a><nav aria-label="Navigation principale"><a href="/a-propos">À propos</a><a href="/#expertises">Expertises</a><a href="/#portfolio">Portfolio</a><a href="/#offres">Offres</a><a href="/#faq">FAQ</a></nav><a className="btn small" href="/devis">Parler de mon projet</a></div></header>;
+  return <header className="nav"><div className="shell navInner"><a className="brand" href="/" aria-label="Courbes & Couleurs, accueil"><img src="/monogramme.png" alt=""/><span>Courbes <i>&</i> Couleurs<small>Design de marque</small></span></a><nav aria-label="Navigation principale"><a href="/a-propos">À propos</a><a href="/#expertises">Expertises</a><a href="/#portfolio">Portfolio</a><a href="/#offres">Offres</a><a href="/#faq">FAQ</a></nav><a className="btn small" href="/devis">Parler de mon projet</a><MobileMenu /></div></header>;
 }
 
 export function SiteFooter() {

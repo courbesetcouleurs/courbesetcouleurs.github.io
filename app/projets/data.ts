@@ -103,6 +103,34 @@ export const projects: Project[] = [
       { src: "/portfolio/tomme-sommets-sac.webp", alt: "Sac boutique Tomme & Sommets" },
     ],
   },
+  {
+    slug: "pepite",
+    name: "PÉPITE",
+    category: "Mode enfant · Identité globale",
+    year: "2026",
+    services: ["Positionnement", "Identité visuelle", "Direction artistique", "Patterns & personnages", "Déploiement retail & produits"],
+    hero: "/projets/pepite/pepite-01-hero.webp",
+    accent: "#3155FF",
+    intro: "Une marque enfant expressive, graphique et contemporaine, pensée pour célébrer les petites personnalités sans reprendre les codes attendus du secteur.",
+    context: "PÉPITE est une marque de vêtements et accessoires pour les 2–8 ans, imaginée autour de petites séries confortables et durables. Le territoire devait séduire les enfants autant que leurs parents, tout en évitant les univers pastel, les animaux mignons et les codes trop bébé.",
+    challenge: "Construire une identité joyeuse et très reconnaissable sans basculer dans le décoratif. Le système devait pouvoir vivre sur des vêtements, accessoires, étiquettes, packaging, boutique, papeterie et collections futures, avec une vraie logique de marque.",
+    concept: "Un logotype irrégulier mais maîtrisé, un bleu profond structurant, une palette vive et une pépite jaune propriétaire composent le socle. Les Mini Pépites prolongent l'identité avec des personnages-symboles, tandis que plusieurs densités de patterns permettent d'adapter l'énergie graphique à chaque support.",
+    result: "Un univers immédiatement identifiable, modulable et commercialement crédible, capable de passer du logo au textile, du packaging au retail, puis d'évoluer vers le bébé, le linge de maison et de nouvelles catégories produit.",
+    objective: "Créer une marque enfant créative que les parents aiment autant que leurs enfants.",
+    scope: "Création de marque · Identité, système graphique et déploiement 360°",
+    images: [
+      { src: "/projets/pepite/pepite-02-identite-visuelle.webp", alt: "Planche d’identité visuelle PÉPITE avec logo, palette, typographies, Mini Pépites et motifs" },
+      { src: "/projets/pepite/pepite-03-systeme-graphique.webp", alt: "Système graphique PÉPITE avec logos, personnages-symboles, palette, patterns, étiquettes, packaging et applications" },
+      { src: "/projets/pepite/pepite-04-boutique.webp", alt: "Devanture de boutique PÉPITE avec identité visuelle et univers retail coloré" },
+      { src: "/projets/pepite/pepite-05-packaging.webp", alt: "Packaging PÉPITE avec boîte d’expédition, sac, papier de soie, carte, stickers et étiquettes" },
+      { src: "/projets/pepite/pepite-06-collection.webp", alt: "Collection de vêtements et accessoires PÉPITE pour enfants de 2 à 8 ans" },
+      { src: "/projets/pepite/pepite-07-details-marque.webp", alt: "Détails de marque PÉPITE : étiquettes textile, tailles, hangtags, stickers et finitions" },
+      { src: "/projets/pepite/pepite-08-collection-bebe.webp", alt: "Collection bébé PÉPITE avec vêtements, accessoires, linge et détails textiles" },
+      { src: "/projets/pepite/pepite-09-collection-fille.webp", alt: "Collection fille PÉPITE avec robes, jupes, sweats, accessoires et motifs colorés" },
+      { src: "/projets/pepite/pepite-10-vitrine-boutique.webp", alt: "Vitrine de boutique PÉPITE avec mannequins, signalétique et personnages de marque" },
+    ],
+  },
+
 ];
 
 export function getProject(slug: string) {

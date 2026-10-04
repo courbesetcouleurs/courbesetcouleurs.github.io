@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { SiteFooter } from "../service-page";
+import { MobileMenu } from "../mobile-menu";
 
 export const metadata: Metadata = {
   title: "À propos de Cristina — Courbes & Couleurs",
@@ -42,6 +43,7 @@ export default function AboutPage() {
             <a href="/#faq">FAQ</a>
           </nav>
           <a className="btn small" href="/devis">Parler de mon projet</a>
+          <MobileMenu />
         </div>
       </header>
 
