@@ -4,6 +4,7 @@ import "./testimonials.css";
 import "./final-overrides.css";
 import "./about-page.css";
 import "./service-pages.css";
+import ContactModal from "./contact-modal";
 
 export const metadata: Metadata = {
   metadataBase: new URL(
@@ -66,7 +67,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr-FR">
-      <body className="antialiased">{children}</body>
+      <body className="antialiased">{children}<ContactModal /></body>
     </html>
   );
 }

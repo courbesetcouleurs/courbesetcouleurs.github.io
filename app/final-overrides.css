@@ -211,3 +211,145 @@ html, body {
   }
   .proof .shell > div:first-child { border-top: 0; }
 }
+
+/* ---------- Contact / devis modal ---------- */
+.contactModalBackdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background: rgba(34, 27, 54, 0.62);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  animation: contactModalFade .18s ease-out both;
+}
+
+.contactModal {
+  width: min(760px, calc(100vw - 48px));
+  height: min(900px, calc(100dvh - 48px));
+  max-height: 92dvh;
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr) auto;
+  overflow: hidden;
+  border: 1px solid rgba(75, 46, 131, 0.12);
+  border-radius: 26px;
+  background: #fff;
+  box-shadow: 0 32px 90px rgba(26, 18, 47, 0.28);
+  animation: contactModalRise .22s ease-out both;
+}
+
+.contactModalBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 16px 18px 14px 22px;
+  border-bottom: 1px solid rgba(75, 46, 131, 0.09);
+  background: #fff;
+}
+
+.contactModalBar > div {
+  display: grid;
+  gap: 2px;
+}
+
+.contactModalEyebrow {
+  color: #ff6468;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .13em;
+  text-transform: uppercase;
+}
+
+.contactModalBar strong {
+  color: #30254f;
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+.contactModalClose {
+  width: 40px;
+  height: 40px;
+  flex: 0 0 40px;
+  border: 0;
+  border-radius: 999px;
+  background: #f7f3ef;
+  color: #30254f;
+  font: 400 27px/1 Arial, sans-serif;
+  cursor: pointer;
+  transition: transform .16s ease, background .16s ease;
+}
+
+.contactModalClose:hover,
+.contactModalClose:focus-visible {
+  transform: rotate(5deg) scale(1.04);
+  background: #eee7f7;
+  outline: none;
+}
+
+.contactModalFrame {
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+  border: 0;
+  background: #fff;
+}
+
+.contactModalFallback {
+  display: flex;
+  justify-content: center;
+  gap: 7px;
+  padding: 10px 16px 12px;
+  border-top: 1px solid rgba(75, 46, 131, 0.08);
+  color: #7b718e;
+  background: #fff;
+  font-size: 11px;
+}
+
+.contactModalFallback a {
+  color: #4b2e83;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+@keyframes contactModalFade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes contactModalRise {
+  from { opacity: 0; transform: translateY(12px) scale(.985); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@media (max-width: 700px) {
+  .contactModalBackdrop {
+    padding: 0;
+    place-items: stretch;
+  }
+  .contactModal {
+    width: 100%;
+    height: 100dvh;
+    max-height: none;
+    border: 0;
+    border-radius: 0;
+  }
+  .contactModalBar {
+    padding: 12px 12px 10px 16px;
+  }
+  .contactModalBar strong {
+    font-size: 16px;
+  }
+  .contactModalFallback {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .contactModalBackdrop,
+  .contactModal { animation: none; }
+}
